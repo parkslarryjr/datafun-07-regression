@@ -22,3 +22,15 @@ to get these projects running on your machine.
 The API page is not always easy to read at first,
 but it becomes useful as you get more comfortable with project structure,
 modules, functions, and docstrings.
+
+## Custom Project
+
+### Basis
+
+I used the Palmer Penguins dataset that was provided through Seaborn. The original example analyzed the relationship between flipper length and body mass using simple linear regression. I started with the provided workflow and explored how different penguin measurements relate to one another.
+
+### Phase 4 Modifications
+
+As my technical modification, I added a new regression plot comparing flipper length and bill length. I chose this relationship because it investigates whether different body measurements of penguins are related and provides an additional analysis beyond the original example.
+
+To implement the modification, I added a Seaborn regression plot (sns.regplot) that displays the data points along with a best-fit regression line. I verified that the modification worked by running the program, confirming that the new graph appeared with the other visualizations, and checking that the regression line was displayed correctly on the scatter plot.

@@ -196,6 +196,13 @@ Yes, there is a clear positive linear relationship between flipper length and bo
 
 ![Residual plot showing errors around the regression line](./docs/images/Figure_2.png)
 
+### Penguins: Technical Modification
+As a technical modification, I added a regression plot comparing flipper length and bill length. This graph explores the relationship between two different body measurements rather than the original relationship between flipper length and body mass.
+
+The plot shows a positive relationship between flipper length and bill length, meaning penguins with longer flippers tend to have longer bills. While the relationship is not as strong as the relationship between flipper length and body mass, there is still an observable upward trend in the data. The regression line helps visualize this trend and provides another example of how linear regression can be used to investigate relationships between variables.
+
+![Regression plot showing flipper length vs bill length](./docs/images/Figure_5.png)
+
 ## World Data: Is there a linear relationship? How can you improve the analysis?
 There is a weak linear relationship between GDP and CO2 emissions. The data is widely spread out, so GDP does not strongly predict CO2 using a straight-line model.
 
@@ -205,6 +212,9 @@ The analysis could be improved by trying additional variables, transforming the 
 ![World data regression plot](./docs/images/Figure_3.png)
 
 ![World data residual plot](./docs/images/Figure_4.png)
+
+
+
 
 ## Project Documentation
 
