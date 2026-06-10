@@ -607,3 +607,22 @@ the plots together and write down what you conclude.
 2026-06-10 12:07:53 | INFO | P07 | shell=powershell
 2026-06-10 12:07:53 | INFO | P07 | cwd=.
 2026-06-10 12:07:53 | INFO | P07 | github_actions=False
+2026-06-10 12:40:52 | INFO | P07 | === RUN START ===
+2026-06-10 12:40:52 | INFO | P07 | project=P07
+2026-06-10 12:40:52 | INFO | P07 | repo_dir=datafun-07-regression
+2026-06-10 12:40:52 | INFO | P07 | python=3.14.5
+2026-06-10 12:40:52 | INFO | P07 | os=Windows 11
+2026-06-10 12:40:52 | INFO | P07 | shell=powershell
+2026-06-10 12:40:52 | INFO | P07 | cwd=.
+2026-06-10 12:40:52 | INFO | P07 | github_actions=False
+2026-06-10 12:40:52 | INFO | P07 | Loading dataset: owid-co2-data-subset
+2026-06-10 12:40:52 | INFO | P07 | Log model complete
+2026-06-10 12:42:39 | INFO | P07 | === RUN START ===
+2026-06-10 12:42:39 | INFO | P07 | project=P07
+2026-06-10 12:42:39 | INFO | P07 | repo_dir=datafun-07-regression
+2026-06-10 12:42:39 | INFO | P07 | python=3.14.5
+2026-06-10 12:42:39 | INFO | P07 | os=Windows 11
+2026-06-10 12:42:39 | INFO | P07 | shell=powershell
+2026-06-10 12:42:39 | INFO | P07 | cwd=.
+2026-06-10 12:42:39 | INFO | P07 | github_actions=False
+2026-06-10 12:42:39 | INFO | P07 | MODEL: log10(CO2) = 1.1127 * log10(GDP) + -10.9424

@@ -201,6 +201,19 @@ As a technical modification, I added a regression plot comparing flipper length 
 
 The plot shows a positive relationship between flipper length and bill length, meaning penguins with longer flippers tend to have longer bills. While the relationship is not as strong as the relationship between flipper length and body mass, there is still an observable upward trend in the data. The regression line helps visualize this trend and provides another example of how linear regression can be used to investigate relationships between variables.
 
+### Phase 5: (CO₂ Exploration)
+
+For Phase 5, I explored a new regression problem using GDP and CO₂ emissions from the OWID dataset. Unlike the penguin example, this relationship was less clearly linear.
+
+The initial scatter plot of GDP vs CO₂ showed curvature and spread, suggesting that a straight-line model does not fully describe the relationship. This indicates that CO₂ emissions are influenced by multiple factors beyond GDP.
+
+To explore this further, I applied a logarithmic transformation to both variables, creating a LOG(GDP) vs LOG(CO₂) model. This transformation produced a much more linear pattern and improved the overall relationship.
+
+![Log-transformed regression showing LOG(GDP) vs LOG(CO2)](./docs/images/Figure_6.png)
+
+A possible reason for the improvement is that the relationship between GDP and CO₂ is multiplicative rather than additive. In addition, other variables such as population size, energy efficiency, and national policies likely influence emissions and create variation in the original model.
+
+
 ![Regression plot showing flipper length vs bill length](./docs/images/Figure_5.png)
 
 ## World Data: Is there a linear relationship? How can you improve the analysis?
@@ -208,6 +221,17 @@ There is a weak linear relationship between GDP and CO2 emissions. The data is w
 
 The analysis could be improved by trying additional variables, transforming the data (such as using logarithms), or using a more complex model instead of a simple linear regression.
 
+### Reflection
+
+This project helped reinforce how linear regression can be used to explore real-world relationships and how important it is to evaluate model fit using visualizations and residuals.
+
+In the penguin dataset, the relationship was clearly linear and easy to interpret. In contrast, the CO₂ dataset required deeper analysis and transformation to reveal a clearer pattern.
+
+I learned that logarithmic transformations can help uncover hidden linear relationships in real data. I also learned that not all relationships are naturally linear, and that additional variables often play an important role.
+
+If I had more time, I would extend the CO₂ analysis by including additional variables such as population or CO₂ per capita, or by adding time (year) to explore how the relationship changes over time.
+
+Overall, this project demonstrates how regression is not just about fitting a line, but about interpreting what the data is actually showing.
 
 ![World data regression plot](./docs/images/Figure_3.png)
 
