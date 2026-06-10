@@ -35,7 +35,7 @@ As my technical modification, I added a new regression plot comparing flipper le
 
 To implement the modification, I added a Seaborn regression plot (sns.regplot) that displays the data points along with a best-fit regression line. I verified that the modification worked by running the program, confirming that the new graph appeared with the other visualizations, and checking that the regression line was displayed correctly on the scatter plot.
 
-![Regression plot showing flipper length vs bill length](./docs/images/Figure_5.png)
+![Regression plot showing flipper length vs bill length](./images/Figure_5.png)
 
 ### Phase 5 Custom Project
 
