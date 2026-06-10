@@ -35,6 +35,8 @@ As my technical modification, I added a new regression plot comparing flipper le
 
 To implement the modification, I added a Seaborn regression plot (sns.regplot) that displays the data points along with a best-fit regression line. I verified that the modification worked by running the program, confirming that the new graph appeared with the other visualizations, and checking that the regression line was displayed correctly on the scatter plot.
 
+![Regression plot showing flipper length vs bill length](./docs/images/Figure_5.png)
+
 ### Phase 5 Custom Project
 
 In this custom project, I explored a new regression problem using the CO₂ dataset. I did not modify the original example script. Instead, I used it as a guide to build my own analysis focused on the relationship between GDP and CO₂ emissions.
@@ -42,6 +44,8 @@ In this custom project, I explored a new regression problem using the CO₂ data
 I selected GDP as the feature and CO₂ emissions as the target variable and applied a simple linear regression model. After running the initial model, I analyzed the scatter plot, regression line, residuals, and R-squared value. The results showed that the relationship was not perfectly linear and had visible curvature, suggesting that a simple straight-line model did not fully capture the pattern in the data.
 
 To further explore this relationship, I applied a log transformation to both GDP and CO₂ emissions and created a new regression plot (Figure 6: LOG(GDP) vs LOG(CO₂)). This transformation made the relationship appear much more linear and easier to interpret. It suggested that the relationship between GDP and CO₂ is likely multiplicative rather than purely linear.
+
+![LOG(GDP) vs LOG(CO2) regression plot](./images/Figure_6.png)
 
 From this analysis, I observed that transforming the variables significantly improved the visual fit of the model and made the trend clearer. I learned that even small transformations like logarithms can reveal stronger patterns in real-world data and improve how well a linear regression represents the relationship.
 
