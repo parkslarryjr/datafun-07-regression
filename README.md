@@ -77,7 +77,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/datafun-07-regression
+git clone https://github.com/parkslarryjr/datafun-07-regression
 
 cd datafun-07-regression
 code .
@@ -189,15 +189,22 @@ Update these figures to present interesting results from your custom project:
 
 ## Penguins: Is there a linear relationship?
 
-![Provide a Useful Caption](./docs/images/Figure_1.png)
+Yes, there is a clear positive linear relationship between flipper length and body mass. As flipper length increases, body mass generally increases as well, and the points follow a fairly straight pattern.
 
-![Provide a Useful Caption](./docs/images/Figure_2.png)
+
+![Scatter plot showing flipper length vs body mass with regression line](./docs/images/Figure_1.png)
+
+![Residual plot showing errors around the regression line](./docs/images/Figure_2.png)
 
 ## World Data: Is there a linear relationship? How can you improve the analysis?
+There is a weak linear relationship between GDP and CO2 emissions. The data is widely spread out, so GDP does not strongly predict CO2 using a straight-line model.
 
-![Provide a Useful Caption](./docs/images/Figure_3.png)
+The analysis could be improved by trying additional variables, transforming the data (such as using logarithms), or using a more complex model instead of a simple linear regression.
 
-![Provide a Useful Caption](./docs/images/Figure_4.png)
+
+![World data regression plot](./docs/images/Figure_3.png)
+
+![World data residual plot](./docs/images/Figure_4.png)
 
 ## Project Documentation
 
